@@ -1,0 +1,94 @@
+/* BODYYY CSS STYLEEEEEEEEEEEEee */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* container stylee css */
+.card {
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Search inputttttttttt */
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    outline: none;
+    width: 70%;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #fff;
+    color: #2575fc;
+    padding: 10px 20px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Weather Section */
+.weather-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.temp {
+    font-size: 48px;
+    margin: 0;
+}
+
+.city {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.humidity, .wind {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 600px) {
+    .weather-container {
+        width: 90%;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
