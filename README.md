@@ -1,0 +1,1 @@
+A simple weather application that allows users to search for the current weather in any city. The app displays the temperature, humidity, wind speed, and weather conditions using the OpenWeatherMap API.
